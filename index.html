@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>text to voice</title>
+  </head>
+  <body>
+    <div style="width: 800px; margin: 10px auto">
+      <textarea name="" id="txt" cols="100" rows="30"></textarea>
+      <div style="display: flex; justify-content: center">
+        <input id="btn1" type="button" value="Speech" style="margin: 5px" />
+        <input id="btn2" type="button" value="English" style="margin: 5px" />
+        <input id="btn3" type="button" value="Clear" style="margin: 5px" />
+        <input id="speed" type="range" name="speed" min="0" max="10" />
+        <div style="font-size: 10px; width: 100px; margin: 10px">
+          スピード変更
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+    <script src="https://kyosuke-fukui.github.io/text_to_voice/app.js"></script>
+  </body>
+</html>
